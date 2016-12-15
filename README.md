@@ -69,15 +69,16 @@ there are 4 things you need to know, `scene`, `Area`, `AreaList` and scene life 
 Scene has the following `options` which can be configured at Component scope and Runtime scope
 
 
-| option  | type | required | default value | scope |
-| ------- | ---- | -------- | ------------- | ----- |
-| path    | String  | Yes | N/A | Component Level only |
-| side    | Side | No | Side.L | Component and Runtime Levels |
-| threshold | Number | No | 50 | Component and Runtime Levels |
-| gesture | Boolean | No | true | Component and Runtime Levels |
-| reset | Boolean | No | false | Component and Runtime Levels |
-| animate | Boolean | No | true | Component and Runtime Levels |
-| backgroundColor | String | No | white | the back color of each scene |
+| option  | type | required | default value | scope | description |
+| ------- | ---- | -------- | ------------- | ----- | ----------- |
+| path    | String  | Yes | N/A | Component Level only | |
+| side    | Side | No | Side.L | Component and Runtime Levels | |
+| threshold | Number | No | 50 | Component and Runtime Levels | |
+| gesture | Boolean | No | true | Component and Runtime Levels | |
+| reset | Boolean | No | false | Component and Runtime Levels | Resets the entire stack keeping only the current scene |
+| replace | Boolean | No | false | Component and Runtime Levels | Removes the previous scene after the current scene has actived |
+| animate | Boolean | No | true | Component and Runtime Levels | |
+| backgroundColor | String | No | white | the back color of each scene | |
 
 Side: is a enum that has the following constant values
 
